@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Indian Chai</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="author" content="Aryan Iyappan" >
+  </head>
+  <body>
+    <h1>Indian Chai</h1>
+    <h3>Established in 1860 | Anna Nagar, Mylapore</h3>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name here"
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Where do you want to have your food?</legend>
+        <input type="radio" id="parcel-here" name="parcel" value="here" >
+        <label for="parcel-here">Here</label>
+        <br >
+        <input type="radio" id="parcel-parcel" name="parcel" value="parcel" >
+        <label for="parcel-parcel">Parcel</label>
+      </fieldset>
+      <fieldset>
+        <legend>What kind of sandwich do you want?</legend>
+        <input
+          type="radio"
+          id="sandwich-chicken"
+          name="sandwich"
+          value="chicken"
+        >
+        <label for="sandwich-chicken">Chicken</label>
+        <br >
+        <input
+          type="radio"
+          id="sandwich-paneer"
+          name="sandwich"
+          value="paneer"
+        >
+        <label for="sandwich-paneer">Paneer</label>
+        <br >
+        <input
+          type="radio"
+          id="sandwich-cheese"
+          name="sandwich"
+          value="cheese"
+        >
+        <label for="sandwich-cheese">Cheese</label>
+        <br >
+        <input type="radio" id="sandwich-none" name="sandwich" value="none" >
+        <label for="sandwich-none">None</label>
+      </fieldset>
+      <fieldset>
+        <legend>What snacks do you want to add on?</legend>
+        <input
+          type="radio"
+          id="snacks-chicken-rolls"
+          name="snacks"
+          value="chicken rolls"
+        >
+        <label for="snacks-chicken-rolls">Chicken Rolls</label>
+        <br >
+        <input type="radio" id="snacks-popcorn" name="snacks" value="popcorn" >
+        <label for="snacks-popcorn">Popcorn</label>
+        <br >
+        <input type="radio" id="snacks-puffs" name="snacks" value="puffs" >
+        <label for="snacks-puffs">Puffs</label>
+        <br >
+        <input type="radio" id="snacks-none" name="snacks" value="none" >
+        <label for="snacks-none">None</label>
+      </fieldset>
+      <fieldset>
+        <legend>Drinks</legend>
+        <input
+          type="checkbox"
+          id="drink-large"
+          name="drink-large"
+          value="Bike"
+        >
+        <label for="drink-large">Large</label><br >
+        <input
+          type="checkbox"
+          id="drink-extralarge"
+          name="drink-extralarge"
+          value="Car"
+        >
+        <label for="drink-extralarge">Extra large</label><br >
+        <input
+          type="checkbox"
+          id="drink-monster"
+          name="drink-monster"
+          value="Boat"
+        >
+        <label for="drink-monster">Monster</label>
+        <br >
+        <br >
+
+        <label for="drinks">Choose a drink:</label>
+        <br >
+
+        <select name="drinks" id="drinks">
+          <optgroup label="Black Chai">
+            <option value="ginger-lemon-chai">Ginger Lemon Chai</option>
+            <option value="gol-mirchi-chai">Gol Mirchi Chai</option>
+            <option value="lemon-chai">Lemon Chai</option>
+            <option value="sulaimani-chai">Sulaimani Chai</option>
+          </optgroup>
+          <optgroup label="Herbal Chai">
+            <option value="green-chai">Green Chai</option>
+            <option value="hibiscus-chai">Hibiscus Chai</option>
+            <option value="jasmine-chai">Jasmine Chai</option>
+            <option value="tulsi-chai">Tulsi Chai</option>
+            <option value="turmeric-spiced-chai">Turmeric Spiced Chai</option>
+          </optgroup>
+          <option value="coffee">Coffee</option>
+        </select>
+      </fieldset>
+      <br/>
+      <input type="submit">
+    </form>
+  </body>
+</html>
