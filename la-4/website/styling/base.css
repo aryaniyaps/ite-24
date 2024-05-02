@@ -1,0 +1,73 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    caret-color:#e0cb0d;
+    background-color:#bf0013;
+    color: #fcfcfc;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+a {
+    color:#e0cb0d;
+}
+
+a:hover {
+    color: #d1bd06;
+}
+
+.pets-image {
+    width: 600px;
+    height: 350px;
+    margin-bottom: 35px;
+}
+
+.shelter-image {
+    width: 750px;
+    height: 350px;
+}
+
+.subtitle{
+    border-style: dashed;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.subheading {
+    border-style: dashed;
+    border-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.heading {
+    border-style: groove;
+    border-width: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
